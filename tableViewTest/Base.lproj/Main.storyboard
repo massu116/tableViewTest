@@ -28,14 +28,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="273"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C1v-YX-9BZ">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="C1v-YX-9BZ">
                                                     <rect key="frame" x="20" y="8" width="100" height="94"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="100" id="77d-OS-IVb"/>
                                                         <constraint firstAttribute="height" constant="100" id="dEX-GT-f7d"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EOC-np-obt">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EOC-np-obt">
                                                     <rect key="frame" x="132" y="15" width="61" height="35"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="35" id="Hd2-e3-ORs"/>
@@ -45,7 +45,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VIO-sq-QA8">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VIO-sq-QA8">
                                                     <rect key="frame" x="187" y="8" width="76" height="47"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="76" id="2gI-kD-fGl"/>
@@ -55,7 +55,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Yy-4b-JqJ">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6Yy-4b-JqJ">
                                                     <rect key="frame" x="132" y="122" width="240" height="140"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="140" id="6Eh-XI-lcl"/>
@@ -64,14 +64,30 @@
                                                 </imageView>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="C1v-YX-9BZ" secondAttribute="bottom" constant="171" id="3rf-Tq-TeR"/>
+                                                <constraint firstItem="6Yy-4b-JqJ" firstAttribute="top" secondItem="EOC-np-obt" secondAttribute="bottom" constant="72" id="40X-gD-cOO"/>
+                                                <constraint firstItem="C1v-YX-9BZ" firstAttribute="top" secondItem="7cG-hl-OO6" secondAttribute="top" constant="8" id="68h-J1-hlw"/>
+                                                <constraint firstItem="VIO-sq-QA8" firstAttribute="leading" secondItem="C1v-YX-9BZ" secondAttribute="trailing" constant="67" id="AgT-bE-OdB"/>
+                                                <constraint firstItem="C1v-YX-9BZ" firstAttribute="leading" secondItem="7cG-hl-OO6" secondAttribute="leading" constant="20" symbolic="YES" id="KRj-L8-izR"/>
                                                 <constraint firstItem="C1v-YX-9BZ" firstAttribute="leading" secondItem="7cG-hl-OO6" secondAttribute="leading" constant="20" id="N1R-Jn-zZd"/>
+                                                <constraint firstAttribute="trailing" secondItem="VIO-sq-QA8" secondAttribute="trailing" constant="151" id="R6O-qI-zKi"/>
+                                                <constraint firstItem="6Yy-4b-JqJ" firstAttribute="bottom" secondItem="7cG-hl-OO6" secondAttribute="bottomMargin" id="UiW-fD-QLA"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="EOC-np-obt" secondAttribute="trailing" constant="201" id="X5j-oh-AJF"/>
+                                                <constraint firstItem="EOC-np-obt" firstAttribute="top" secondItem="7cG-hl-OO6" secondAttribute="topMargin" constant="4" id="cAb-kz-WsC"/>
+                                                <constraint firstItem="6Yy-4b-JqJ" firstAttribute="top" secondItem="VIO-sq-QA8" secondAttribute="bottom" constant="67" id="dWU-W2-PvY"/>
+                                                <constraint firstItem="EOC-np-obt" firstAttribute="leading" secondItem="C1v-YX-9BZ" secondAttribute="trailing" constant="12" id="ghe-DT-2WR"/>
+                                                <constraint firstItem="6Yy-4b-JqJ" firstAttribute="top" secondItem="VIO-sq-QA8" secondAttribute="bottom" constant="67" id="hIF-B6-Cm0"/>
+                                                <constraint firstItem="VIO-sq-QA8" firstAttribute="top" secondItem="7cG-hl-OO6" secondAttribute="top" constant="8" id="p3V-NE-njt"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="6Yy-4b-JqJ" secondAttribute="trailing" constant="22" id="wZS-L3-lCg"/>
+                                                <constraint firstItem="6Yy-4b-JqJ" firstAttribute="leading" secondItem="7cG-hl-OO6" secondAttribute="leadingMargin" constant="112" id="ykW-So-dPc"/>
+                                                <constraint firstItem="EOC-np-obt" firstAttribute="leading" secondItem="C1v-YX-9BZ" secondAttribute="trailing" constant="12" id="z5C-yj-vVA"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="fishID" destination="EOC-np-obt" id="gwu-fs-0ej"/>
                                             <outlet property="fishIcon" destination="C1v-YX-9BZ" id="Cy5-19-xE9"/>
                                             <outlet property="fishName" destination="VIO-sq-QA8" id="1SQ-vO-MuW"/>
-                                            <outlet property="foodImage" destination="6Yy-4b-JqJ" id="UHt-zd-5ag"/>
+                                            <outlet property="foodImage" destination="6Yy-4b-JqJ" id="GFC-ji-iO1"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
