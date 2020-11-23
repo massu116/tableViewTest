@@ -13,7 +13,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     var ID = ["001", "002"]
     var name = ["イカ", "ブリ"]
-    var Icon = ["ika", "yellowfish"]
+    var Icon = ["ikaika", "buriburi"]
     var food = ["ikaring", "sashimi"]
     var foodName = ["イカリング", "刺身"]
     
