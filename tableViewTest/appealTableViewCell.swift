@@ -14,5 +14,7 @@ class appealTableViewCell: UITableViewCell {
     @IBOutlet weak var fishID: UILabel!
     @IBOutlet weak var fishName: UILabel!
     @IBOutlet weak var foodImage: UIImageView!
+    @IBOutlet weak var fishComment: UIImageView!
+    @IBOutlet weak var foodName: UILabel!
     
 }
